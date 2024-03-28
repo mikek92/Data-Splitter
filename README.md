@@ -30,12 +30,14 @@ Dynamic CSV Viewer is a web-based tool designed to facilitate the viewing and ex
    git clone https://github.com/mikek92/Data-Splitter.git
 Navigate to the project directory:
 
-```bash
 
 ----------- 1# Installing ------------------------
 
 To get started with the project, clone the repository and install the dependencies.
 
+Install dependencies:
+```bash
+npm install
 
 
 -----------  Running the Application -----------
@@ -45,6 +47,7 @@ To start the application in development mode with nodemon (which will automatica
 [**npm run dev**]
 
 To start the application in production mode:
+
 ```bash
 npm start
 
