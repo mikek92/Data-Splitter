@@ -38,15 +38,16 @@ To get started with the project, clone the repository and install the dependenci
 Install dependencies:
 ```bash
 npm install
-
+```
 
 -----------  Running the Application -----------
 
 To start the application in development mode with nodemon (which will automatically restart the server upon changes):
+start
 
-```bash
+   ```bash
 npm run dev
-```
+   ```
 
 To start the application in production mode:
 
