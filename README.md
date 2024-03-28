@@ -30,20 +30,20 @@ Dynamic CSV Viewer is a web-based tool designed to facilitate the viewing and ex
    git clone https://github.com/mikek92/Data-Splitter.git
 Navigate to the project directory:
 
-bash
+```bash
 
 cd dynamic-csv-viewer
 
 Install dependencies:
 
-bash
+```bash
 
 npm install
 
 Start the application:
 
-bash
+```bash
 
 npm start
-
+______________
 Open your web browser and navigate to http://localhost:3000 to access the Data-Splitter.
