@@ -36,13 +36,11 @@ cd dynamic-csv-viewer
 
 Install dependencies:
 
-```bash
 
 npm install
 
 Start the application:
 
-```bash
 
 npm start
 ______________
