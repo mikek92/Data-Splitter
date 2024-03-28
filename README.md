@@ -43,14 +43,17 @@ npm install
 -----------  Running the Application -----------
 
 To start the application in development mode with nodemon (which will automatically restart the server upon changes):
+
 ```bash
-[**npm run dev**]
+npm run dev
+```
 
 To start the application in production mode:
 
 ```bash
-npm start
 
+npm start
+```
 # Built With
 
 Node.js - The runtime server environment
