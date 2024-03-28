@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dallas CSV Table</title>
+    <!-- Updated to use the latest version of Tailwind CSS (as of the writing of this response) -->
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.0.4/dist/tailwind.min.css" rel="stylesheet">
+    <style>
+        .pagination-button.active {
+            background-color: #4299e1;
+            color: #ffffff;
+            cursor: not-allowed;
+            /* Also indicates that the button is not clickable */
+        }
+    </style>
+</head>
+
+<body class="bg-gray-100">
+    <!-- Responsive Table Container -->
+    <div class="container mx-auto px-4 py-8">
+        <!-- Filter Form -->
+        <div class="mb-6">
+            <label for="filter-input" class="block text-sm font-medium text-gray-700">Search by OWNER</label>
+            <div class="mt-1 flex rounded-md shadow-sm">
+                <input type="text" id="filter-input"
+                    class="flex-1 block w-full rounded-none rounded-l-md border-gray-300 pl-4 sm:text-sm"
+                    placeholder="Enter owner's name...">
+                <button id="filter-button"
+                    class="inline-flex items-center px-4 py-2 rounded-r-md border border-transparent bg-blue-500 text-white text-sm font-medium hover:bg-blue-700 focus:outline-none">
+                    Filter
+                </button>
+            </div>
+        </div>
+
+        <!-- Table -->
+        <div class="shadow-lg rounded overflow-x-auto mb-8">
+            <table class="min-w-full bg-white">
+                <!-- Table Head -->
+                <thead>
+                    <tr class="bg-gray-200 text-gray-600 uppercase text-sm leading-normal" id="table-head">
+                        <!-- Column headers will be injected here -->
+                    </tr>
+                </thead>
+                <!-- Table Body -->
+                <tbody id="table-body" class="text-gray-600 text-sm font-light">
+                    <!-- Table rows will be injected here -->
+                </tbody>
+            </table>
+        </div>
+
+        <!-- Pagination Controls -->
+        <div id="pagination" class="flex justify-center space-x-1 sm:space-x-2 my-4">
+            <!-- Pagination buttons will be injected here by your main.js script -->
+        </div>
+    </div>
+
+    <!-- Import Alpine.js for reactivity (optional) -->
+    <script src="https://cdn.jsdelivr.net/npm/alpinejs@2.8.2/dist/alpine.min.js" defer></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
