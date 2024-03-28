@@ -1,6 +1,6 @@
 ## Overview
 
-Dynamic CSV Viewer is a web-based tool designed to facilitate the viewing and exploration of large CSV files. It offers a user-friendly interface for navigating through paginated data, with built-in features for filtering and searching specific content. This README provides an overview of the project, its key features, usage instructions, technologies used, and more.
+ Data Splitter is a web-based tool designed to facilitate the viewing and exploration of large CSV files. It offers a user-friendly interface for navigating through paginated data, with built-in features for filtering and searching specific content. This README provides an overview of the project, its key features, usage instructions, technologies used, and more.
 
 ## Features
 
